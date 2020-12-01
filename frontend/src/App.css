@@ -1,0 +1,140 @@
+body, html{
+  width: 100%;
+  height: 100vh;
+  
+}
+
+#root {
+  height: 100%;
+}
+
+.navbar {
+  font-size: medium;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+  background-color: #1189de;
+}
+
+
+a.nav-link{
+  color: white;
+}
+
+.nav-home {
+  display: inline-block;
+  color: white !important;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  width: 90%;
+  display: inline-block;
+  text-align: right; 
+}
+
+.nav-item, .nav-link {
+  display: inline;
+  margin: 0 3px;
+}
+
+.container {
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  height: 120vh;
+}
+
+.loginForm {
+ box-sizing: border-box;
+ width: 100%;
+ max-width: 400px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.inputField {
+ padding-top: 16px;
+}
+
+.input {
+ box-sizing: border-box;
+ outline: none;
+ border: solid 2px #1189de;
+ border-radius: 4px;
+ color: #292929;
+ width: 100%;
+ padding: 12px;
+ font-size: 14px;
+ background: rgba(255, 255, 255, 1);
+}
+
+.submitButton {
+ padding-top: 16px;
+}
+
+.tombol {
+  padding-top: 16px;
+}
+
+.btn {
+ width: 100%;
+ min-width: 280px;
+ color: #fff;
+ padding: 12px;
+ font-size: 14px;
+ font-weight: bold;
+ border: solid 2px #148F3F;
+ border-radius: 4px;
+ background: #1DB954;
+ cursor: pointer;
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+
+
+
+.daftar_bahan{
+  margin-top: 100px;
+}
+
+tbody a{
+  font-weight: 400;
+}
+
+tbody a:hover{
+font-weight: 400;
+color: #FDCF76;
+text-decoration: underline;
+}
+
+.daftar_bahan table{
+  border: 1px solid #f3d1dc;
+  border-collapse: collapse;
+  width: auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.daftar_bahan th {
+border: 3px solid #f3d1dc;
+padding: 15px;
+text-align: center;
+}
+
+
+.daftar_bahan td {
+border: 3px solid #f3d1dc;
+padding: 10px;
+
+}
+
+.daftar_bahan tbody{
+font-weight: 300;
+}
